@@ -1,0 +1,200 @@
+@import url("https://fonts.googleapis.com/css?family=Lato:400,700,400italic,700italic&subset=latin");
+
+* {
+  box-sizing: border-box;
+}
+body {
+  margin: 0;
+  font-family: -apple-system, BlinkMacSystemFont, "Segoe UI", "Roboto", "Oxygen",
+    "Ubuntu", "Cantarell", "Fira Sans", "Droid Sans", "Helvetica Neue",
+    sans-serif;
+  -webkit-font-smoothing: antialiased;
+  -moz-osx-font-smoothing: grayscale;
+  background-image: linear-gradient(
+    to top left,
+    #753682 0%,
+    #c04c50 100%
+  ) !important;
+  font-weight: 400;
+  height: 100vh;
+  color: #333;
+}
+main {
+  color: rgb(39, 34, 39);
+  /* background-image: url(../images/emg-logo.png);
+  background-repeat: no-repeat;
+  background-position-x: right 75%; */
+}
+.ui.pointing.secondary.menu {
+  background: rgb(213 209 240 / 75%) !important;
+}
+.ui.card {
+  width: 360px !important;
+  text-align: center !important;
+  vertical-align: middle !important;
+  justify-content: center !important;
+  margin: auto !important;
+}
+.ui.feed {
+  margin: auto !important;
+  justify-content: center !important;
+  text-align: center !important;
+}
+.no-margin {
+  margin: 0 !important;
+}
+.center {
+  margin: auto;
+  width: 60%;
+  justify-content: center !important;
+  text-align: center !important;
+  display: flexbox !important;
+}
+
+.btn-modal {
+  flex-wrap: wrap !important;
+  margin: auto;
+}
+code {
+  font-family: source-code-pro, Menlo, Monaco, Consolas, "Courier New",
+    monospace;
+}
+
+:root {
+  --bg: rgba(175, 164, 243, 0.808);
+  --bg-accent: #484a4d;
+  --text-color: #dadce1;
+  --nav-size: 60px;
+  --boarder: 1px solid #474a4d;
+  --boarder-radius: 8px;
+  --speed: 500ms;
+}
+
+ul {
+  list-style: none;
+  margin: 0;
+  padding: 0;
+}
+
+a {
+  color: var(--text-colour);
+  text-decoration: none;
+}
+
+.logo-image {
+  width: 46px;
+  height: 46px;
+  border-radius: 50%;
+  overflow: hidden;
+  margin-top: -6px;
+}
+
+.navbar {
+  background-color: var(--bg);
+  height: var(--nav-size);
+  padding: 0 1rem;
+  border-bottom: var(--boarder);
+}
+.navbar-nav {
+  max-width: 100%;
+  height: 100%;
+  display: flex;
+  justify-content: flex-end;
+}
+
+.nav-item {
+  width: calc(var(--nav-size) * 0.8);
+  display: flex;
+  align-items: center;
+  justify-content: center;
+}
+.icon-button {
+  --button-size: calc(var(--nav-size) * 0.5);
+  width: var(--button-size);
+  height: var(--button-size);
+  background-color: rgb(204, 203, 203);
+  border-radius: 50%;
+  padding: 5px;
+  margin: 2px;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+}
+
+.icon-button:hover {
+  filter: brightness(1.2);
+}
+
+.icon-button svg {
+  width: 20px;
+  height: 20px;
+}
+
+/* Drop down menu */
+
+.dropdown {
+  position: absolute;
+  top: 58px;
+  width: 300px;
+  transform: translate(-45%);
+  background-color: var(--bg);
+  border: var(--boarder);
+  border-radius: var(--boarder-radius);
+  padding: 1rem;
+  overflow: hidden;
+}
+
+.menu-item {
+  height: 50px;
+  display: flex;
+  align-items: center;
+  border-radius: var(--boarder-radius);
+  transition: background var(--speed);
+  padding: 0.5rem;
+}
+
+.menu-item:hover {
+  background-color: rgba(191, 182, 245, 0.808);
+}
+
+/* .nav--logo_text .nav--title {
+  margin: 0;
+}
+
+.nav--logo_text {
+  margin-right: auto;
+  font-weight: 700;
+  font-size: 22px;
+}
+
+.nav--title {
+  margin-right: auto;
+}
+.nav--icon {
+  height: 60px;
+  margin-right: 7px;
+}
+.main--title {
+  margin: 0;
+  font-size: 39px;
+  letter-spacing: -0.05em;
+  font-family: Inter;
+  font-style: normal;
+  font-weight: bold;
+}
+
+.main--facts {
+  margin-top: 46px;
+  font-size: medium;
+}
+
+.main--facts > li {
+  line-height: 19px;
+  padding-block: 10px;
+}
+
+.main--subtitle {
+  margin: 0;
+  font-size: 25px;
+  letter-spacing: -0.05em;
+} */
